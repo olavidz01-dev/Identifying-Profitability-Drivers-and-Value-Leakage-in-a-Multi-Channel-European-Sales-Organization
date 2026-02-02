@@ -101,7 +101,7 @@ The dataset contains four different tables with multiple columns. The tables inc
 - Price per box: The selling price per box of the product
 - Is_Organic: Indicates whether the product is made with organic ingredients (Yes/No)
 <p align="center">
-  <img src="assets/dataMod.png" width="500" />
+  <img src="assets/dataMod.png" width="1000" />
 </p>
 
 
@@ -144,7 +144,7 @@ You can interact with the fully published Tableau dashboard here:
 
 ## Sales Performance Analysis
 <p align="center">
-  <img src="assets/SaleDash.png" width="500" />
+  <img src="assets/SaleDash.png" width="1000" />
 </p>
 
 ### 1. Top KPIs (Key Performance Indicators)
@@ -170,8 +170,9 @@ However, beneath these strong topline metrics lie material performance imbalance
 <p align="center">
   <img src="assets/Map.png" width="1000" />
 </p>
+
 <p align="center">
-  <img src="assets/delivery%.png" width="500" />
+  <img src="assets/delivery%.png" width="1000" />
 </p>
 
 **Analysis**
@@ -199,7 +200,7 @@ Leadership should not interpret high delivery success as market success. Sales s
 - January shows strong revenue but relatively lower profit, suggesting early-year margin pressure (discounting, promotions, or cost inefficiencies).
 
 <p align="center">
-  <img src="assets/Pro.Rev.png" width="500" />
+  <img src="assets/Pro.Rev.png" width="1000" />
 </p>
 
 **Insight**
@@ -229,10 +230,11 @@ There is an opportunity to:
 - Insight: Lowest volume but strategic brand value
 
 <p align="center">
-  <img src="assets/Org.Inorg.png" width="500" />
+  <img src="assets/Org.Inorg.png" width="1000" />
 </p>
+
 <p align="center">
-  <img src="assets/Pro.Qtysold.png" width="500" />
+  <img src="assets/Pro.Qtysold.png" width="1000" />
 </p>
 
 **Key Observations**
@@ -253,7 +255,7 @@ Not all channels are equally value-accretive. The Website channel is the core pr
 - Some high-volume products dilute overall margin, contributing between 3.58% and 4.66%
 
 <p align="center">
-  <img src="assets/proMar.png" width="500" />
+  <img src="assets/proMar.png" width="1000" />
 </p>
 
 **Insight**
@@ -270,7 +272,7 @@ Without deliberate product mix optimization, scaling volume alone will not maxim
 
 ## Agent Performance Analysis
 <p align="center">
-  <img src="assets/Ag-dash.png" width="500" />
+  <img src="assets/Ag-dash.png" width="1000" />
 </p>
 
 **1. Top KPIs (Key Performance Indicators)**
@@ -289,7 +291,7 @@ Choco De Luxe demonstrates strong overall commercial health, with €212.8k aver
 
 **2. Agent Performance**
 <p align="center">
-  <img src="assets/Protarg.png" width="500" />
+  <img src="assets/Protarg.png" width="1000" />
 </p>
 
 **Top Performers (Profit ≥ €100k target)**
@@ -320,7 +322,7 @@ Poor profitability is not driven by delivery failures (delivery success ~100%), 
 
 **3. Delivery Success ≠ Commercial Success** 
 <p align="center">
-  <img src="assets/TopDelievry.png" width="500" />
+  <img src="assets/TopDelievry.png" width="1000" />
 </p>
 
 Agents with 100% delivery success (e.g., Rafaelia Blaksland, Wilone O’Kielt) still rank among the bottom contributors to revenue and profit.
@@ -328,9 +330,9 @@ Agents with 100% delivery success (e.g., Rafaelia Blaksland, Wilone O’Kielt) s
 This confirms that delivery excellence is necessary but not sufficient. The real gap is commercial effectiveness, not operations.
 
 
-**4. Volume VS value Mismatch** 
+**4. Volume VS Value Mismatch** 
 <p align="center">
-  <img src="assets/But-QtyRev.png" width="500" />
+  <img src="assets/But-QtyRev.png" width="1000" />
 </p>
 
 - Bottom 5 agents by quantity sold still generate €118k - €179k in revenue
@@ -346,7 +348,7 @@ Sales volume is being achieved at the wrong price or margin, signaling:
 
 **5. Transaction Efficiency** 
 <p align="center">
-  <img src="assets/Bubble.png" width="500" />
+  <img src="assets/Bubble.png" width="1000" />
 </p>
 
 Top agents achieve:
