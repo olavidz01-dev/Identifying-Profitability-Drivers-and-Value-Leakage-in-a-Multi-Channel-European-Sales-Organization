@@ -463,71 +463,9 @@ This aligns agent behavior with company profitability.
 
 ## Executive Summary 
 
-Choco de Luxe delivered a strong overall performance, generating €5.32M in revenue and €2.45M in profit at a 46% margin across seven European markets, supported by a highly reliable 96% delivery success rate and an average €212.8K revenue per sales agent. Sales exhibit clear seasonality, with an early-year decline followed by a mid-year recovery and softening toward the end of the period, while revenue and profit remain heavily concentrated in the Website channel, with Warehouse and Social Media providing lower but stable contributions. Despite operational strength, commercial performance is uneven across regions and agents, with premium products and a small group of high-performing sales agents driving the majority of profitability, while several agents generate negative profit (Profit ≥ €100k target) at due to pricing, product mix, and deal structure inefficiencies, indicating that current revenue growth masks underlying value leakage driven by commercial execution rather than delivery or operational constraints.
+Choco de Luxe delivered a strong overall performance, generating €5.32M in revenue and €2.45M in profit at a 46% margin across seven European markets, supported by a highly reliable 96% delivery success rate and an average €212.8K revenue per sales agent. Sales exhibit clear seasonality, with an early-year decline followed by a mid-year recovery and softening toward the end of the period, while revenue and profit remain heavily concentrated in the Website channel, with Warehouse and Social Media providing lower but stable contributions. Despite operational strength, commercial performance is uneven across regions and agents, with premium products and a small group of high-performing sales agents driving the majority of profitability, while several agents generate negative profit (when Profit target ≥ €100k) due to pricing, product mix, and deal structure inefficiencies, indicating that current revenue growth masks underlying value leakage driven by commercial execution rather than delivery or operational constraints.
 
 Choco de Luxe is operationally strong and financially healthy, but the next phase of growth depends on precision rather than scale. The biggest upside lies in channel prioritization, regional commercial tailoring, and margin-led product strategy, not in expanding footprint or logistics capacity.
-
-
-
----
-
-
-
-### Next Steps
-
-1. **Deep dive into churn drivers:** Survey churned customers, analyze product usage data.
-
-2. **Build retention models:** Use machine learning (e.g., logistic regression, random forest) to predict churn risk.
-
-3. **Refine segmentation:** Include behavioral data (transaction volume, complaints, digital activity).
-
-4. **Test retention offers:** A/B test targeted campaigns for high-value and medium-risk customers.
-
-5. **Monitor KPIs monthly:** Add trend charts for churn rate, NPS, and retention by geography and age.
-
-
----
-
-🔗 [View the Live Dashboard](https://bit.ly/UnityBank_Customer_Churn_Risk)
-
-
-## Executive Summary
-
-This Power BI analytics solution provides Unity Bank with a comprehensive, data-driven view of its customer base, financial exposure, and churn risk. By leveraging the full capabilities of Power BI from data transformation to advanced DAX measures and interactive dashboards, the project delivers actionable insights that directly support customer retention, revenue protection, and risk mitigation efforts.
-
-This analysis reveals that Unity Bank is facing a critical customer churn challenge, with over 20% of customers exiting and a disproportionately high churn among medium-risk and high-balance clients. Inactivity, low product penetration, and regional concentration (notably in Germany) emerge as leading indicators of churn. Additionally, the bank’s current churn risk tiering underestimates the risk posed by medium-tier customers, who account for the largest share of churned balance value.
-
-The dashboards empower stakeholders to explore these dynamics through real-time, filterable views segmented by geography, age, credit score, product usage, and churn risk. This enables business leaders to move from reactive churn tracking to proactive customer engagement and risk prevention.
-
-## Executive Recommendation
-
-Unity Bank should implement a **targeted, data-driven customer retention strategy** focused on the following priorities:
-
-1. **Prioritize Medium-Risk and High-Balance Customers**  
-   - Proactively monitor and engage medium-risk customers, especially those with high balances, using early-warning signals from the dashboard.
-
-2. **Reactivate Inactive Customers**  
-   - Launch re-engagement campaigns and personalized offers for inactive users, who represent a large portion of churned customers.
-
-3. **Increase Product Penetration to Reduce Churn**  
-   - Design bundled product offerings and personalized cross-sell strategies to encourage customers with only one product to deepen their relationship with the bank.
-
-4. **Localize Retention Strategies by Region**  
-   - Tailor retention and service strategies for high-churn regions like Germany, where customer behavior significantly deviates from the rest of the portfolio.
-
-5. **Refine Risk Scoring Models**  
-   - Update churn risk models to reflect actual behavioral drivers found in the data, such as inactivity, single product ownership, and regional trends, to improve prediction accuracy.
-
-By implementing these actions, Unity Bank can significantly reduce churn, improve customer lifetime value, and drive sustainable revenue growth through smarter, insight-led decisions.
-
-
----
-
-
-## Disclaimer
-This project is for portfolio and educational display only.
-
-No content may be reused without permission.
 
 
 ---
