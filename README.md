@@ -431,7 +431,7 @@ Stronger customer trust, higher repeat purchase rates, and pricing power.
 Faster, more confident executive decision-making.
 
 
-## Strategic Recommendations (Agent Performance)
+## Strategic Recommendations (Agents' Performance)
 
 
 1. **Replicate Top-Agent Playbooks**
