@@ -1,4 +1,4 @@
-# Identifying-Profitability-Drivers-and-Value-Leakage-in-a-Multi-Channel-European-Sales-Organization
+# Identifying Profitability Drivers and Value Leakage in a Multi-Channel European Sales Organization
 <p align="center">
   <img src="assets/Overview.png" width="1000" />
 </p>
@@ -75,7 +75,7 @@ The dataset contains four different tables with multiple columns. The tables inc
 - Date: The date when the transaction occurred
 - SalesPersonID: identifies who made the sale
 - LocationID: indicating where the sale was made
-- ProductID: the identifier of chocolate product sold
+- ProductID: the identifier of the chocolate product sold
 - Boxes Shipped: The number of boxes of chocolate shipped for the transaction
 - Sales Channel: The platform or medium through which the product was sold, e.g., website, In-store
 - Delivery Status: The state of delivery for the order, e.g., completed, cancelled
@@ -98,10 +98,10 @@ The dataset contains four different tables with multiple columns. The tables inc
 - Category: The classification of the product based on its type (e.g., Dark Chocolate, Milk Chocolate)
 - Cocoa Percent (%): The percentage of cocoa content in the chocolate product
 - Cost per unit: The internal cost to produce one unit (box) of the product
-- Price Per box: The selling price per box of the product
+- Price per box: The selling price per box of the product
 - Is_Organic: Indicates whether the product is made with organic ingredients (Yes/No)
 <p align="center">
-  <img src="assets/dataMod.png" width="1000" />
+  <img src="assets/dataMod.png" width="500" />
 </p>
 
 
@@ -121,7 +121,7 @@ This project was developed using **Microsoft Excel** and **Tableau**, covering t
 
 ### 2. DAX Measures (Tableau)
 - Created **calculated fields** to support key metrics and business logic
-- Applied dimensions and calculated measures to support dynamic and filter-aware analysis across sales, agents, and location segments
+- Applied dimensions and calculated measures to support dynamic and filter-aware analysis across year, product status, sales channel, product category, and location.
 
 ### 3. Interactive Visualization & Dashboard Design (Tableau)
 Developed a comprehensive suite of interactive dashboards using **Tableau Dashboard**
@@ -144,7 +144,7 @@ You can interact with the fully published Tableau dashboard here:
 
 ## Sales Performance Analysis
 <p align="center">
-  <img src="assets/Saledash.png" width="1000" />
+  <img src="assets/SaleDash.png" width="500" />
 </p>
 
 ### 1. Top KPIs (Key Performance Indicators)
@@ -171,7 +171,7 @@ However, beneath these strong topline metrics lie material performance imbalance
   <img src="assets/Map.png" width="1000" />
 </p>
 <p align="center">
-  <img src="assets/delivery%.png" width="1000" />
+  <img src="assets/delivery%.png" width="500" />
 </p>
 
 **Analysis**
@@ -199,7 +199,7 @@ Leadership should not interpret high delivery success as market success. Sales s
 - January shows strong revenue but relatively lower profit, suggesting early-year margin pressure (discounting, promotions, or cost inefficiencies).
 
 <p align="center">
-  <img src="assets/Pro.Rev.png" width="1000" />
+  <img src="assets/Pro.Rev.png" width="500" />
 </p>
 
 **Insight**
@@ -229,10 +229,10 @@ There is an opportunity to:
 - Insight: Lowest volume but strategic brand value
 
 <p align="center">
-  <img src="assets/Org.Inorg.png" width="1000" />
+  <img src="assets/Org.Inorg.png" width="500" />
 </p>
 <p align="center">
-  <img src="assets/Pro.Qtysold.png" width="1000" />
+  <img src="assets/Pro.Qtysold.png" width="500" />
 </p>
 
 **Key Observations**
@@ -252,6 +252,10 @@ Not all channels are equally value-accretive. The Website channel is the core pr
 - Premium and specialty products (e.g., caramel chocolate, dark chocolate, filled chocolates, and flavored chocolate variants) contribute disproportionately higher margins of approximately 5% and above.
 - Some high-volume products dilute overall margin, contributing between 3.58% and 4.66%
 
+<p align="center">
+  <img src="assets/proMar.png" width="500" />
+</p>
+
 **Insight**
 
 Revenue growth is currently driven by volume, but profit growth is driven by product mix quality.
@@ -260,17 +264,13 @@ Revenue growth is currently driven by volume, but profit growth is driven by pro
 
 Without deliberate product mix optimization, scaling volume alone will not maximize profitability.
 
-<p align="center">
-  <img src="assets/proMar.png" width="1000" />
-</p>
-
 
 ---
 
 
 ## Agent Performance Analysis
 <p align="center">
-  <img src="assets/Ag-dash.png" width="1000" />
+  <img src="assets/Ag-dash.png" width="500" />
 </p>
 
 **1. Top KPIs (Key Performance Indicators)**
@@ -289,7 +289,7 @@ Choco De Luxe demonstrates strong overall commercial health, with €212.8k aver
 
 **2. Agent Performance**
 <p align="center">
-  <img src="assets/Protarg.png" width="1000" />
+  <img src="assets/Protarg.png" width="500" />
 </p>
 
 **Top Performers (Profit ≥ €100k target)**
@@ -320,7 +320,7 @@ Poor profitability is not driven by delivery failures (delivery success ~100%), 
 
 **3. Delivery Success ≠ Commercial Success** 
 <p align="center">
-  <img src="assets/TopDelievry.png" width="1000" />
+  <img src="assets/TopDelievry.png" width="500" />
 </p>
 
 Agents with 100% delivery success (e.g., Rafaelia Blaksland, Wilone O’Kielt) still rank among the bottom contributors to revenue and profit.
@@ -330,7 +330,7 @@ This confirms that delivery excellence is necessary but not sufficient. The real
 
 **4. Volume VS value Mismatch** 
 <p align="center">
-  <img src="assets/But-QtyRev.png" width="1000" />
+  <img src="assets/But-QtyRev.png" width="500" />
 </p>
 
 - Bottom 5 agents by quantity sold still generate €118k - €179k in revenue
@@ -346,7 +346,7 @@ Sales volume is being achieved at the wrong price or margin, signaling:
 
 **5. Transaction Efficiency** 
 <p align="center">
-  <img src="assets/Bubble.png" width="1000" />
+  <img src="assets/Bubble.png" width="500" />
 </p>
 
 Top agents achieve:
