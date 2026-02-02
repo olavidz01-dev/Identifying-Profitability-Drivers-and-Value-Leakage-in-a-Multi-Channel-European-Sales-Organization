@@ -287,17 +287,17 @@ Without deliberate product mix optimization, scaling volume alone will not maxim
 Choco De Luxe demonstrates strong overall commercial health, with €212.8k average revenue per agent, 46% profit margin, and an excellent 96% delivery success rate. However, performance is highly uneven across agents, with a small group materially outperforming while several agents destroy value (negative profit contribution when the target is €100,000). The core opportunity lies not in top-line growth alone, but in performance rebalancing, capability uplift, and selective intervention among underperformers.
 
 
-**2. By Balance Band**
+**2. Agent Performance**
 <p align="center">
   <img src="assets/Protarg.png" width="1000" />
 </p>
 
 **Top Performers (Profit ≥ €100k target)**
-- Karlen McCaffrey – €31,994 profit (clear benchmark agent)
-- Beverie Moffet – €20,956
-- Kelci Walkden – €19,693
-- Oby Sorrel – €19,525
-- Dennison Crosswaite – €18,184
+- Karlen McCaffrey: €31,994 profit (clear benchmark agent)
+- Beverie Moffet: €20,956
+- Kelci Walkden: €19,693
+- Oby Sorrel: €19,525
+- Dennison Crosswaite: €18,184
 
 ➡ These five agents set the operational gold standard, delivering high revenue, strong margins, and consistent execution
 
@@ -318,223 +318,160 @@ Poor profitability is not driven by delivery failures (delivery success ~100%), 
 - High cost-to-serve customer
 
 
-
-
-
-
-
-
-- High Balance (100k–150k): 3,830 customers
-- Low Balance (<50k): 3,692 customers
-- Medium (50k-100k): 1,509 customers
-- Very High Balance (150k+): 969 customers
-- Most balances are clustered at the extremes - either low or high, suggesting a bimodal distribution
+**3. Delivery Success ≠ Commercial Success** 
 <p align="center">
-  <img src="assets/Saledash.png" width="1000" />
+  <img src="assets/TopDelievry.png" width="1000" />
 </p>
 
+Agents with 100% delivery success (e.g., Rafaelia Blaksland, Wilone O’Kielt) still rank among the bottom contributors to revenue and profit.
+
+This confirms that delivery excellence is necessary but not sufficient. The real gap is commercial effectiveness, not operations.
 
 
+**4. Volume VS value Mismatch** 
+<p align="center">
+  <img src="assets/But-QtyRev.png" width="1000" />
+</p>
+
+- Bottom 5 agents by quantity sold still generate €118k - €179k in revenue
+- Yet some of these same agents post negative profit when set at 100k or more
+
+**Interpretation:**
+
+Sales volume is being achieved at the wrong price or margin, signaling:
+- Misaligned incentives
+- Lack of margin discipline
+- Poor customer portfolio quality
 
 
+**5. Transaction Efficiency** 
+<p align="center">
+  <img src="assets/Bubble.png" width="1000" />
+</p>
 
+Top agents achieve:
+- High transaction counts (49-54 entries)
+- High revenue per transaction (Totaling between €198k and €262k)
+- Consistent profitability
 
+Lower agents show:
+- Reasonable transaction counts
+- Weak monetization per transaction
 
-### ⚠️ Key Challenges Identified
-**1. Low Active Engagement**
-- With only 51.51% active customers, nearly half of the customer base is disengaged or dormant.
-  - This may contribute significantly to the 20.37% churn rate.
-
-**2. Low Cross-Sell Penetration**
-- Over 95% of customers have 1–2 products
-  - Suggests missed opportunities for upselling/cross-selling additional financial services (loans, credit cards, investments, etc.)
-
-**3. Weak Credit Quality**
-- With a median credit score of 652 and 5,693 customers in Fair or Poor segments, the bank may be carrying higher credit risk.
-  - Could impact loan default rates and profitability if not managed
+➡ This indicates coaching and pricing governance gaps, not demand issues.
 
 
 ---
 
 
-## 📊 Churn & Risk Overview
-
-<p align="right">
-  <img src="assets/churn1.png" width="1000" />
-</p>
-
-### Top KPIs (Key Performance Indicators)
-- Churn Rate: 20.37%
-- No. of Customers churned: 2.037
-- Churned Balance: $186M
-- High-Risk Customers: 174
-- High-Value Churn Rate: 24.98%
-  - Key Risk: Nearly 25% of high-value customers churned, representing a significant financial loss and a priority focus area.
-
-### 🌍 Churn by Location
-
-| Country         | Churn Rate   | Churned Balance    | Key Insight                               |
-|-----------------|--------------|--------------------|-------------------------------------------|
-| **Germany**     |     32%      |       $97.9M       | Highest churn rate and balance loss       |
-| **Spain**       |     17%      |       $29.9M       | Moderate churn, lower financial exposure  |
-| **France**      |     16%      |       $57.7M       | Lower churn rate, but large value impact  |
-
-⚠ Germany is a high-risk churn zone, both in terms of volume and financial value.
-
-### Churn by Customer Type
-**1. Active vs. Inactive**
-- Inactive customers account for 65% of churn, which is only 48% of the base.
-- Active customer churn rate = 35%, indicating even active users aren't fully engaged.
-
-**Actionable Insight:** Inactivity is a major churn predictor. There is a need to consider stronger lifecycle management.
-
-<p align="right">
-  <img src="assets/risk2.png" width="1000" />
-</p>
-
-### Churn by Product Usage
-| No. of Products    | Churn Rate    | No. of Churned     |
-|--------------------|-------------- |--------------------|
-|   1                |     28%       |        1,409       | 
-|   2                |     8%        |        348         |
-|   3                |     83%       |        220         | 
-|   4                |     100%      |        60          |
-
-Customers with only 1 product are the largest churn group (1,409 customers).
-
-**Caution**
-
-The dataset shows a 100% churn rate for customers with four products. On investigation, this segment has a very small sample size, and all instances are labelled as churned. This appears to be a dataset artifact rather than a realistic banking behavior, so insights from this segment should be interpreted with caution. Strategic focus should remain on 1–3 product customers, where both volume and churn impact are material.
-
-### Churn by Age Group
-| Age Group       | Churn Rate    | No. of Churned                        |
-|-----------------|-------------- |---------------------------------------|
-|   45-54         |     48%       |  Extremely high churn risk            |
-|   55+           |     39%       |  Aging segment disengaging            |
-|   35-44         |     18%       |  Moderate risk                        | 
-|   <25           |     9%        |  Lower churn, oppourtunity to grow    |
-|   25-34         |     8%        |   Best-performing segment             |
-
-**Insight:** Mid-to-senior age customers are churning at 2-5x the rate of younger ones.
-
-### Churn by Credit Score Band
-| Credit Score Band       |  Churn Rate    |
-|-------------------------|----------------|
-|  Poor (<580)            |     22%        |
-|  Fair (580-669)         |     21%        |
-|  very Good (740-799)    |     21%        |
-|  Excellent (800+)       |     20%        |
-|  Good (670-739)         |     19%        |
-
-**Insight:**
-
-Churn is fairly consistent across credit bands, and no strong correlation between score and churn.
-
-### Churn Balance by Risk Tier
-
-| Risk Tier       |  Churned Balance  |
-|-----------------|-------------------|
-|  Medium         |     $106M         |
-|  low            |     $79.4M        |
-|  High           |     $0.2M         |
-
-**Insight:**
-- My analysis showed that customers at the highest churn risk tend to have lower balances, meaning they contribute less to direct financial loss.
-- The majority of revenue loss actually comes from medium-risk, higher-value customers.
-- This highlights the need for differentiated retention strategies.
+## Strategic Recommendations (Sales Performance)
 
 
----
+1. **Double Down on the Website as the Primary Growth Engine**
+- Increase marketing spend and personalization on the Website channel
+- Prioritize high-margin products in online promotions
+- Use Website data to test pricing and bundling strategies before rolling out to other channels
+
+**Expected Impact:**
+
+Higher ROI on marketing spend and faster profit growth without expanding logistics capacity.
+
+2. **Implement Regional Commercial Playbook**
+- Identify underperforming cities and diagnose:
+  - Pricing mismatch
+  - Product assortment gaps
+  - Sales coverage issues
+- Introduce region-specific promotions and product mixes
+
+**Expected Impact:**
+
+Improved regional d conversion rates and more balanced European performance
+
+3. **Shift Focus from Volume-Led to Margin-Led Growth**
+- Actively promote high-margin products across all channels
+- Reassess low-margin, high-volume SKUs for:
+  - Price increases
+  - Cost optimization
+  - Channel restriction
+
+**Expected Impact:**
+
+Margin expansion without needing incremental volume growth.
+
+4. **Optimize Warehouse Channel for Cost Efficiency**
+- Use Warehouse primarily for:
+  - Bulk orders
+  - Lower-margin, high-volume products
+- Tighten cost controls and reduce discount leakage
+
+**Expected Impact:**
+
+Improved channel profitability and clearer channel roles.
+
+5. **Use Delivery Excellence as a Commercial Differentiator**
+- Integrate delivery success metrics into:
+  - Sales messaging
+  - B2B negotiations
+  - Premium brand positioning
+
+**Expected Impact:**
+
+Stronger customer trust, higher repeat purchase rates, and pricing power.
+
+6. **Introduce Advanced Performance Management**
+- Move beyond static dashboards to:
+  - Target vs actual tracking
+  - Margin variance analysis
+  - Scenario simulations (product mix, pricing, channel shifts)
+
+**Expected Impact:**
+
+Faster, more confident executive decision-making.
 
 
-## Financial Performance Summary
+## Strategic Recommendations (Agent Performance)
 
-<p align="right">
-  <img src="assets/Summary.png" width="1000" />
-</p>
 
-### KPIs Overview
-- Total Customers: 10,000
-- Churn Rate: 20.37% (2,037 customers churned)
-- Average Retain Balance: $72,745
-- Average Churn Balance: $91,109
-- Total Balance: $765M
-- Geographies: France, Germany, Spain
+1. **Replicate Top-Agent Playbooks**
+- Shadow Karlen McCaffrey & Beverie Moffet
+- Codify:
+  - Product bundling strategies
+  - Customer segmentation approach
+  - Pricing tactics
+- Roll out as mandatory sales enablement
 
-**Key Insights**
-**1. High Churn Rate**
-- A churn rate of 20.37% is relatively high, indicating a potential issue in customer retention.
-- The average balance of churned customers ($91,109) is higher than that of retained customers ($72,745), suggesting that higher-value customers are churning.
+2. **Immediate Performance Triage**
 
-**2. Geographical Distribution**
-- Majority of customers are from:
-  - France: 5,014 (50.1%)
-  - Germany: 2,509 (25.1%)
-  - Spain: 2,477 (24.8%)
+Classify agents into:
+- **Scale (Top performers):** protect & incentivize
+- **Fix (Low profit, decent volume):** targeted coaching
+- **Exit / Reassign (Negative profit persistently):** decisive action
 
-However, a filtered drill-down shows:
-- In Germany, customers under 25 years old, with medium churn risk, are notably present (96 customers).
-- Within this filtered segment, gender is almost equally split: 41 males, 36 females.
+3. **Redesign Sales Incentives**
+- Shift from revenue-only rewards to Profit-weighted commissions
 
-**3. Age Group Analysis**
-- Most customers fall into 35-44 and 25-34 age groups:
-  - 35-44: 3,278 retained
-  - 25-34: 2,972 retained
+This aligns agent behavior with company profitability.
 
-- However, <25 age group has the lowest retention (417) and churn (40) proportionally.
-- Suggests younger customers are more likely to churn.
-
-**4. Churn Risk Tiers**
-- Within the Germany/<25/Medium Risk segment:
-  - Most are in Medium Risk tier (77 out of 96).
-  - Low (14) and High (5) are negligible.
+4. **Product Mix Governance**
+- Identify high-margin SKUs
+- Mandate minimum mix ratios
+- Prevent agents from pushing low-margin products unchecked
 
 
 ---
 
 
-## 🎯 Strategic Recommendations
+## Executive Summary 
 
-A. **Customer Retention Strategy**
+Choco de Luxe delivered a strong overall performance, generating €5.32M in revenue and €2.45M in profit at a 46% margin across seven European markets, supported by a highly reliable 96% delivery success rate and an average €212.8K revenue per sales agent. Sales exhibit clear seasonality, with an early-year decline followed by a mid-year recovery and softening toward the end of the period, while revenue and profit remain heavily concentrated in the Website channel, with Warehouse and Social Media providing lower but stable contributions. Despite operational strength, commercial performance is uneven across regions and agents, with premium products and a small group of high-performing sales agents driving the majority of profitability, while several agents generate negative profit (Profit ≥ €100k target) at due to pricing, product mix, and deal structure inefficiencies, indicating that current revenue growth masks underlying value leakage driven by commercial execution rather than delivery or operational constraints.
 
-1. **Prioritize high-balance churners:**
-   - Since churned customers have higher average balances, create retention campaigns targeting high-value customers.
-   - Consider proactive outreach, loyalty rewards, or personalized financial advice.
+Choco de Luxe is operationally strong and financially healthy, but the next phase of growth depends on precision rather than scale. The biggest upside lies in channel prioritization, regional commercial tailoring, and margin-led product strategy, not in expanding footprint or logistics capacity.
 
-2. **Develop targeted interventions for medium-risk segments:**
-   - The largest risk category is medium. Launch "nudge" campaigns for this group to reduce the risk of escalation.
-   - Examples: financial planning tools, regular check-ins, or premium service trials.
 
-B. **Segment-Specific Strategies**
 
-1. **Adults (45-54 age group) and Seniors (55+ age group)**
-   - High churn and low retention indicate dissatisfaction or low engagement.
-   - Actions:
-     - Launch adults-focused products (e.g., retirement planning consultations, health savings-linked accounts, insurance bundles (health + life + critical illness)).
-     - Improve digital engagement (mobile banking, in-app "easy mode" interface).
+---
 
-2. **Germany Segment**
-   - Customers <25 in Germany are showing churn behavior.
-   - Consider localized offers and customer engagement campaigns in Germany targeting this age group.
 
-C. **Geographic Focus**
-   - France has 50% of total customers – leverage this for upselling and cross-selling.
-   - Spain and Germany: Evaluate marketing ROI and retention performance to determine if higher engagement is needed.
-
-D. **Improve Churn Prediction & Early Warning**
-   - Use the existing churn risk tiers to build a predictive churn model based on:
-     - Age
-     - Geography
-     - Gender
-     - Credit Score
-     - Product usage
-     - Balance trends
-   - Focus on medium-risk segments and monitor any increase in early warning indicators.
-
-E. **Financial Impact Monitoring**
-   - Given that high churners have higher balances:
-     - Quantify potential revenue loss from churn and build a business case for investing in retention programs.
-     - Use dashboards to track CLV (Customer Lifetime Value) over time by segment.
 
 ### Next Steps
 
