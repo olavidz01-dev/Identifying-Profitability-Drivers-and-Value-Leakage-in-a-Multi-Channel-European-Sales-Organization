@@ -172,7 +172,7 @@ However, beneath these strong topline metrics lie material performance imbalance
 </p>
 
 <p align="center">
-  <img src="assets/delivery%.png" width="1000" />
+  <img src="assets/deli.png" width="1000" />
 </p>
 
 **Analysis**
